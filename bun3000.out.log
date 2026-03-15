@@ -1,0 +1,652 @@
+[jobs] Background cleanup jobs started
+🔒 Nexus backend running at http://0.0.0.0:3000
+📖 Swagger docs: http://0.0.0.0:3000/swagger
+[jobs] Background cleanup jobs started
+🔒 Nexus backend running at http://0.0.0.0:3000
+📖 Swagger docs: http://0.0.0.0:3000/swagger
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/list",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "5zZxIDjc...M4DSrb",
+  sessionId: "PEK8cxVorKkVesNrLstIvYYHQhlhnGSO",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  orgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/create",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "5zZxIDjc...M4DSrb",
+  sessionId: "PEK8cxVorKkVesNrLstIvYYHQhlhnGSO",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  orgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/list",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "5zZxIDjc...M4DSrb",
+  sessionId: "PEK8cxVorKkVesNrLstIvYYHQhlhnGSO",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  orgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/793339d1-a12b-477e-89c8-64729f936c04/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "5zZxIDjc...M4DSrb",
+  sessionId: "PEK8cxVorKkVesNrLstIvYYHQhlhnGSO",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  orgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/793339d1-a12b-477e-89c8-64729f936c04/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "5zZxIDjc...M4DSrb",
+  sessionId: "PEK8cxVorKkVesNrLstIvYYHQhlhnGSO",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  orgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/list",
+  hasAuthorization: true,
+  cookieNames: [ "better-auth.session_token" ],
+  tokenPreview: "5zZxIDjc...M4DSrb",
+  sessionId: "PEK8cxVorKkVesNrLstIvYYHQhlhnGSO",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  orgId: "eW4OPHXTaUBoTfIAqBOwNFTmwRg0GVMS",
+  role: "owner",
+}
+[jobs] Background cleanup jobs started
+🔒 Nexus backend running at http://0.0.0.0:3000
+📖 Swagger docs: http://0.0.0.0:3000/swagger
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/list",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/create",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/list",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/create",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/4d56df73-c836-4ed6-a2a9-534e7f7b594f/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}
+[auth] {
+  step: "authenticated",
+  path: "/api/v1/room/ba1fa6ba-6521-4b51-b2a5-b287b1e8d414/messages",
+  hasAuthorization: true,
+  cookieNames: [ "sb-xdkinaaybowsqgmyljnv-auth-token.0", "sb-xdkinaaybowsqgmyljnv-auth-token.1",
+    "__next_hmr_refresh_hash__", "better-auth.session_token"
+  ],
+  tokenPreview: "4qyCHzWD...7jCWhm",
+  sessionId: "cHHtqApYWP0miNlMrTYDaKuoqTTfZa1B",
+  userId: "rBat4eP5wdZ3Zd3eTSFw9zDlpZYV9Kg3",
+  requestedOrgId: null,
+  sessionOrgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  orgId: "gCAPQNRmFYd0VdON74JHcHkfR9cuKZG1",
+  role: "owner",
+}

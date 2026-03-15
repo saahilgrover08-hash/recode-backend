@@ -1,0 +1,516 @@
+$ bun run --watch src/index.ts
+Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+      at deprecatedSslModeWarning (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-connection-string\index.js:216:13)
+      at parse (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-connection-string\index.js:143:11)
+      at new ConnectionParameters (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg\lib\connection-parameters.js:60:42)
+      at new Client (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg\lib\client.js:43:33)
+      at newClient (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:241:20)
+      at connect (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:235:10)
+      at query (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:449:10)
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\node-postgres\session.js:124:31)
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:39:22)
+
+Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+      at deprecatedSslModeWarning (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-connection-string\index.js:216:13)
+      at parse (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-connection-string\index.js:143:11)
+      at new ConnectionParameters (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg\lib\connection-parameters.js:60:42)
+      at new Client (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg\lib\client.js:43:33)
+      at newClient (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:241:20)
+      at connect (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:235:10)
+      at query (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:449:10)
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\node-postgres\session.js:124:31)
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:39:22)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:12:31.228Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:12:31.228Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+      at deprecatedSslModeWarning (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-connection-string\index.js:216:13)
+      at parse (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-connection-string\index.js:143:11)
+      at new ConnectionParameters (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg\lib\connection-parameters.js:60:42)
+      at new Client (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg\lib\client.js:43:33)
+      at newClient (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:241:20)
+      at connect (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:235:10)
+      at query (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:449:10)
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\node-postgres\session.js:124:31)
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:39:22)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:33:56.643Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:33:56.643Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:38:41.956Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:38:41.956Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:38:56.946Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:38:56.946Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:39:11.963Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:39:11.963Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:39:41.988Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:39:41.988Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:44:42.177Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:44:42.177Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:49:42.394Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:49:42.394Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:50:42.455Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:50:42.455Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:50:57.482Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:50:57.482Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+ode_modules\pg-pool\index.js:235:10)
+      at query (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:449:10)
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\node-postgres\session.js:124:31)
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:39:22)
+
+Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+      at deprecatedSslModeWarning (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-connection-string\index.js:216:13)
+      at parse (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-connection-string\index.js:143:11)
+      at new ConnectionParameters (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg\lib\connection-parameters.js:60:42)
+      at new Client (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg\lib\client.js:43:33)
+      at newClient (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:241:20)
+      at connect (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:235:10)
+      at query (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:449:10)
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\node-postgres\session.js:124:31)
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:39:22)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:12:31.210Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:12:31.210Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:13:01.247Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:13:01.247Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+      at deprecatedSslModeWarning (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-connection-string\index.js:216:13)
+      at parse (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-connection-string\index.js:143:11)
+      at new ConnectionParameters (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg\lib\connection-parameters.js:60:42)
+      at new Client (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg\lib\client.js:43:33)
+      at newClient (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:241:20)
+      at connect (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:235:10)
+      at query (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:449:10)
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\node-postgres\session.js:124:31)
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:39:22)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:38:57.027Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:38:57.027Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
+[jobs] check-supernode-heartbeats failed 36 |   async queryWithCache(queryString, params, query) {
+37 |     if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) {
+38 |       try {
+39 |         return await query();
+40 |       } catch (e) {
+41 |         throw new DrizzleQueryError(queryString, params, e);
+                   ^
+error: Failed query: select "id", "org_id", "user_id", "device_label", "is_active", "on_power", "storage_mb", "last_heartbeat", "elected" from "supernode_registry" where ("supernode_registry"."elected" = $1 and "supernode_registry"."is_active" = $2 and "supernode_registry"."last_heartbeat" < $3)
+params: true,true,2026-03-15T07:39:12.025Z
+  query: "select \"id\", \"org_id\", \"user_id\", \"device_label\", \"is_active\", \"on_power\", \"storage_mb\", \"last_heartbeat\", \"elected\" from \"supernode_registry\" where (\"supernode_registry\".\"elected\" = $1 and \"supernode_registry\".\"is_active\" = $2 and \"supernode_registry\".\"last_heartbeat\" < $3)",
+ params: [
+  true, true, "2026-03-15T07:39:12.025Z"
+],
+
+      at queryWithCache (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\drizzle-orm\pg-core\session.js:41:15)
+
+40 |     res = resolve
+41 |     rej = reject
+42 |   }).catch((err) => {
+43 |     // replace the stack trace that leads to `TCP.onStreamRead` with one that leads back to the
+44 |     // application that created the query
+45 |     Error.captureStackTrace(err)
+               ^
+DNSException: getaddrinfo ENOTFOUND
+ syscall: "getaddrinfo",
+   errno: 4,
+    code: "ENOTFOUND"
+
+      at <anonymous> (C:\Users\tanay\Documents\project-local\recode-backend-local\node_modules\pg-pool\index.js:45:11)
+
